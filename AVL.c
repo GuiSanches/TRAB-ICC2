@@ -77,7 +77,7 @@ Da mesma forma ocorre uma rotacao simples(esquerda) se o desbalanceamento ocorre
 simples ocorrem para insercoes na parte mais externa da arvore ja insercoes na parte mais interna na arvore geram rotacoes duplas(direita-esquerda, esquerda-direita).*/
 PONT_r insere(PONT_r r, int ch, int valor) {
 	int NOP = -1;
-		
+
 	PONT_r aux = busca_arvore(r, ch, &NOP);	
 	if(!aux){		
 		//Se a raiz for nula, nao ha arvore, cria-se no que sera arvore
